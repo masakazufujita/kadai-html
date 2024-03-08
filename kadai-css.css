@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* ヘッダーの横幅と色*/
+header {
+  width: 1000px;
+  background-color: #ffcccc;
+}
+
+/*　チャプター：メインとメニュー（2カラムレイアウト） */
+#wrapper {
+  width: 1000px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#main {
+  width: 700px;
+  background-color: #ccffcc;
+}
+
+#menu {
+  width: 300px;
+  background-color: #ccccff;
+}
+
+/* フッターの横幅と色*/
+footer {
+  width: 1000px;
+  background-color: #ffccff;
+}
